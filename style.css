@@ -1,0 +1,131 @@
+.ble{
+    height: 100vh;
+    background-image: url(images/paysage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.navigation{
+    height: 20%;
+}
+.boitePunchline{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.elementsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.punchline{
+    color: white;
+    font-size: 3rem;
+    padding:4px;
+}
+
+.punchline2{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.lien{
+    margin: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+.filtre {
+    display: flex;
+    background-color: rgb(213, 213, 213);
+}
+
+.genre button{
+    background-color: darkgoldenrod;
+    color: white;
+    align-items: flex-end;
+}
+
+.produit{
+    background-color: rgb(213, 213, 213);
+    width: 20vh;
+}
+
+.basProduit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gold {
+    height: 400px;
+    margin-top: 70px;
+    background-color: #AA9B77;
+}
+
+.goldContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    width: 50%;
+    border: #918363 solid 2px;
+    padding: 60px 40px 60px 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.twitter {
+    height: 100px;
+    background-color: #424242;
+}
+
+.twitterContent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.twitterContent img {
+    width: 5%;
+}
+
+.footer {
+    height: 400px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.footerContent {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContent .text {
+    width: 30%;
+}
+
+.footerContent .navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerContent .navigation a:hover {
+    text-decoration: underline;
+}
